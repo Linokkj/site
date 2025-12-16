@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Produto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="compra.css">
+</head>
+
+<body>
+    <div class="container my-5 product-page">
+        <div class="row product-row-bg p-4 rounded shadow-lg"> <div class="col-md-6">
+                <div class="product-image-container mb-4">
+                    <img src="https://boaleitura.com/storage/capas/3587ad0a0eca8393006625c76883979e.jpg" class="img-fluid rounded shadow-sm" alt="Produto Fantástico" id="mainImage">
+                </div>
+            </div>
+
+            <div class="col-md-6 product-details">
+                
+                <h1 class="product-name text-white">O PACIENTE</h1>
+                <p class="text-muted">Estoque: Disponível</p>
+
+                <div class="price-section mb-4">
+                    <span class="old-price">R$ 38,45</span>
+                    <span class="new-price">R$ 14,77</span> 
+                    <p class="installment-info">ou 3x de R$ 33,30 sem juros</p>
+                    <button class="btn btn-sm btn-success-light mt-2">GANHE R$ 5,00 DE CASHBACK</button>
+                </div>
+                
+                <p class="product-description">
+                    Os nossos receios mais profundos e as nossas recordações mais dolorosas são o que o alimenta.Numa série de publicações online, Parker H., um jovem e ambicioso psiquiatra, relata o seu terrível trabalho num hospital psiquiátrico e o seu esforço para curar um paciente desconcertante e muito perigoso: um homem de 40 anos que está internado desde os 6. Trata-se do caso mais difícil da instituição, pois o paciente não tem diagnóstico conhecido, e os seus sintomas parecem evoluir com o tempo. Cada pessoa que tentou tratá-lo foi levada à loucura ou ao suicídio.Desesperados e temerosos, os diretores do hospital mantêm-no rigidamente confinado e permitem apenas o contacto indispensável com a equipa para a segurança de todos, convencidos de que libertá-lo representaria uma séria ameaça para a sociedade.Parker assume a responsabilidade de descobrir o que aflige esse paciente misterioso, com o objetivo de o curar. Mas as coisas fogem ao seu controlo desde o primeiro encontro. E, diante de uma possibilidade inimaginável, Parker é forçado a questionar tudo aquilo em que julgava acreditar.
+                </p>
+
+                <hr class="dark-hr">
+
+                <div class="d-flex align-items-center mb-5">
+                    
+                    <div class="input-group quantity-control me-3" style="width: 150px;">
+                        <button class="btn btn-outline-secondary dark-outline" type="button" id="minus-btn">-</button>
+                        <input type="text" class="form-control text-center dark-input" value="1" id="quantityInput" readonly>
+                        <button class="btn btn-outline-secondary dark-outline" type="button" id="plus-btn">+</button>
+                    </div>
+
+                    <button id="addToCartBtn" class="btn btn-red btn-lg flex-grow-1">
+                        ADICIONAR AO CARRINHO
+                    </button>
+                </div>
+                
+                <div class="shipping-info p-3 border rounded">
+                    <p class="mb-1 fw-bold text-white">Frete e Entrega:</p>
+                    <p class="mb-0 text-muted">Calcule o prazo de entrega no carrinho. Frete grátis acima de R$ 200,00.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="compra.js"></script>
+</body>
+
+</html>

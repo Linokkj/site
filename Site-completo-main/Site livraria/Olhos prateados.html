@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Produto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="compra.css">
+</head>
+
+<body>
+    <div class="container my-5 product-page">
+        <div class="row product-row-bg p-4 rounded shadow-lg"> <div class="col-md-6">
+                <div class="product-image-container mb-4">
+                    <img src="https://m.media-amazon.com/images/I/91Rh0D2brbL._SY466_.jpg" class="img-fluid rounded shadow-sm" alt="Produto Fantástico" id="mainImage">
+                </div>
+            </div>
+
+            <div class="col-md-6 product-details">
+                
+                <h1 class="product-name text-white">Olhos prateados: Five Nights At Freddy's 1</h1>
+                <p class="text-muted">Estoque: Disponível</p>
+
+                <div class="price-section mb-4">
+                    <span class="old-price">R$ 70,90</span>
+                    <span class="new-price">R$ 35,90</span> 
+                    <p class="installment-info">ou 3x de R$ 33,30 sem juros</p>
+                    <button class="btn btn-sm btn-success-light mt-2">GANHE R$ 5,00 DE CASHBACK</button>
+                </div>
+                
+                <p class="product-description">
+                    Do criador dos games Five Nights at Freddy’s, uma história que expande o universo dos jogos, repleta de terror e suspense.
+
+No popular videogame criado por Scott Cawthon, o jogador assume o papel de um segurança contratado para tomar conta de uma pizzaria durante a noite, enquanto os animatrônicos perambulam e ganham ímpeto violento. Mas o mistério por trás dessas criaturas e dos assassinatos que ocorreram ali nunca foi desvendado... até agora. Olhos prateados extrapola o universo que conquistou fãs no mundo todo e traz à tona os medos mais obscuros que só brinquedos sinistros são capazes de provocar.
+
+O primeiro livro da trilogia Five Nights at Freddy’s leva o leitor ao mundo de Charlie, uma adolescente que volta para sua cidade natal quando é convidada para participar de uma homenagem a um de seus amigos de infância, morto dez anos atrás, em circunstâncias misteriosas, dentro da pizzaria do pai dela.
+
+Tomados pela nostalgia e determinados a desvendar o crime jamais solucionado, Charlie e seus amigos acabam voltando à pizzaria, agora totalmente abandonada. Eles logo vão descobrir que as coisas lá dentro não são mais as mesmas. Os quatro animatrônicos mudaram. Os bonecos que antes encantavam as crianças agora guardam um segredo sombrio... e um plano mortal.
+
+Lançada em 2014, a série de games Five Nights at Freddy’s tem cinco jogos disponíveis e seguidores fiéis ao redor do mundo. No Brasil, vídeos sobre o jogo em canais especializados do YouTube chegam a registrar perto de 20 milhões de visualizações e, recentemente, o programa Zero1, apresentado por Tiago Leifert na TV Globo aberta, dedicou ao jogo uma edição inteira.
+
+Lançado em setembro de 2016 nos Estados Unidos, Olhos Prateados está há 16 semanas na lista de mais vendidos de livros jovens do The New York Times.
+
+“Scott Cawthon sabe muito bem brincar com o medo sombrio causado por animatrônicos assustadores.” ‘ Joel Couture, Indie Game Megazine.
+                </p>
+
+                <hr class="dark-hr">
+
+                <div class="d-flex align-items-center mb-5">
+                    
+                    <div class="input-group quantity-control me-3" style="width: 150px;">
+                        <button class="btn btn-outline-secondary dark-outline" type="button" id="minus-btn">-</button>
+                        <input type="text" class="form-control text-center dark-input" value="1" id="quantityInput" readonly>
+                        <button class="btn btn-outline-secondary dark-outline" type="button" id="plus-btn">+</button>
+                    </div>
+
+                    <button id="addToCartBtn" class="btn btn-red btn-lg flex-grow-1">
+                        ADICIONAR AO CARRINHO
+                    </button>
+                </div>
+                
+                <div class="shipping-info p-3 border rounded">
+                    <p class="mb-1 fw-bold text-white">Frete e Entrega:</p>
+                    <p class="mb-0 text-muted">Calcule o prazo de entrega no carrinho. Frete grátis acima de R$ 200,00.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="compra.js"></script>
+</body>
+
+</html>

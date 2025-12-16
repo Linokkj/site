@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Produto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="compra.css">
+</head>
+
+<body>
+    <div class="container my-5 product-page">
+        <div class="row product-row-bg p-4 rounded shadow-lg"> <div class="col-md-6">
+                <div class="product-image-container mb-4">
+                    <img src="https://img.travessa.com.br/livro/GR/b5/b50c18fd-f560-4129-b96a-ae84205ca12f.jpg" class="img-fluid rounded shadow-sm" alt="Produto Fantástico" id="mainImage">
+                </div>
+            </div>
+
+            <div class="col-md-6 product-details">
+                
+                <h1 class="product-name text-white">O longo tempo de Eduardo da Cunha Júnior</h1>
+                <p class="text-muted">Estoque: Disponível</p>
+
+                <div class="price-section mb-4">
+                    <span class="old-price">R$ 98,90</span>
+                    <span class="new-price">R$ 48,90</span> 
+                    <p class="installment-info">ou 3x de R$ 33,30 sem juros</p>
+                    <button class="btn btn-sm btn-success-light mt-2">GANHE R$ 5,00 DE CASHBACK</button>
+                </div>
+                
+                <p class="product-description">
+                   “Lá em casa todo mundo me chamava de menino bobo. Só sabiam era me chamar de menino bobo. Sempre que eu dizia que o teto do meu quarto falava comigo, e eu falava com ele como se ele fosse gente, todos riam e me chamavam de menino bobo. Só que era verdade, e eu tinha que dizer a verdade. Mas tanto me chamaram de menino bobo que, quando tinha dez anos, eu tinha até medo de adormecer à noite só de pensar que podia acordar no inferno. Porque o inferno, todos eles me diziam, era o lugar para onde iam os meninos bobos que tinham tetos amigos, e conversavam com eles como se eles fossem gente.”
+
+                </p>
+
+                <hr class="dark-hr">
+
+                <div class="d-flex align-items-center mb-5">
+                    
+                    <div class="input-group quantity-control me-3" style="width: 150px;">
+                        <button class="btn btn-outline-secondary dark-outline" type="button" id="minus-btn">-</button>
+                        <input type="text" class="form-control text-center dark-input" value="1" id="quantityInput" readonly>
+                        <button class="btn btn-outline-secondary dark-outline" type="button" id="plus-btn">+</button>
+                    </div>
+
+                    <button id="addToCartBtn" class="btn btn-red btn-lg flex-grow-1">
+                        ADICIONAR AO CARRINHO
+                    </button>
+                </div>
+                
+                <div class="shipping-info p-3 border rounded">
+                    <p class="mb-1 fw-bold text-white">Frete e Entrega:</p>
+                    <p class="mb-0 text-muted">Calcule o prazo de entrega no carrinho. Frete grátis acima de R$ 200,00.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="compra.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lino.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+  <header class="topop">
+  <nav class="inicial">
+    <div class="logo">
+      <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/4949485-stacked-book-in-black-background-vector-template-logo-design-editable-gratis-vetor.jpg" alt="logo">
+    </div>
+
+      <div class="busca">
+          <form action="resultados/busca.html" method="GET">  
+              <input list="sugestoes" id="campoBusca" placeholder=" Busque aqui por título, autor, editora ou código de barras">
+              
+      <datalist id="sugestoes"></datalist>
+              <button type="submit">Buscar</button>
+        </form>     
+      </div>
+
+     
+
+   <div class="icone">
+    <span>
+      
+      <img src="https://i.pinimg.com/564x/cd/10/ac/cd10ac09ee4d6a6e5b80075e2da3db05.jpg" alt="" link="" >
+      
+    </span>
+  </div>
+
+  </nav>
+
+  </header>
+
+    <nav class="lista">
+    <ul>
+        <li>
+            <a href="#">Livros</a>
+
+            
+            <div class="Tlista">
+                <div>
+                    <a href="#">Ficção</a>
+                    <a href="#">Ficção Juvenil</a>
+                    <a href="#">Religião</a>
+                </div>
+
+                <div>
+                    <a href="#">Ciência</a>
+                    <a href="#">Computação</a>
+                    <a href="#">Design</a>
+                    <a href="#">Esportes</a>
+                </div>
+
+                <div>
+                    <a href="#">Jogos</a>
+                    <a href="#">Matemática</a>
+                    <a href="#">Saúde</a>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <a href="#">Artista</a>
+                <div class="Tlista">
+                    <a href="">Quadrinhos e Mangar</a>
+                    <a href="">Terror</a>
+                    <a href="">Ficção</a>
+                </div>
+        </li>
+
+        <li><a href="#">Informação</a>
+            <div class="Tlista">
+                <p>Esse site foi feito para o trabalho do curso então algumas coisa aqui são experimental</p>
+            </div>
+        </li>
+
+    </ul>
+</nav>
+
+
+
+
+<div class="carousel">
+    <button class="btn" id="prev">❮</button>
+
+    <img id="slide" src="https://leitura.com.br/image/cache/catalog/BANNER%20%C3%81LBUM%20DISNEY%202-1920x300.png">
+
+    <button class="btn" id="next">❯</button>
+</div>
+
+
+<section class="secao" aria-label="Carrossel de pré-vendas">
+  <div class="topo">
+    <h1 class="titulo">Pré-Vendas</h1>
+      <a href="#" class=""></a>
+  </div>
+
+  <div class="carrossel">
+
+    <!-- Botão Esquerda -->
+    <button class="botao-nav esquerda" id="btnEsquerda" aria-label="Anterior">
+      <svg width="22" height="36" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6" stroke="white" stroke-width="2"/></svg>
+    </button>
+
+    <!-- Faixa de Cards -->
+    <div class="faixa" id="faixa">
+
+      <a href="Mentiram para nós sobre o Brasil.html" class="card-link" aria-label="Comprar">
+
+      <article class="card">
+        <div class="etiqueta">Pré-Venda</div>
+        <div class="desconto">55% OFF</div>
+
+        <div class="capa">
+          <img src="https://leitura.com.br/image/cache/products/9786554273879-200x200.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Mentiram para nós sobre o Brasil</h3>
+      </article>
+
+      </a>
+
+      <a href="O longo tempo de Eduardo da Cunha Júnior.html" class="card-link" aria-label="Comprar">
+
+      <article class="card">
+        <div class="etiqueta">Pré-Venda</div>
+        <div class="desconto">40% OFF</div>
+
+        <div class="capa">
+          <img src="https://leitura.com.br/image/cache/products/9786560252172-200x200.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">O longo tempo de Eduardo da Cunha Júnior</h3>
+      </article>
+
+      </a>
+
+      <a href="Breve memória de Simeão boa morte.html" class="card-link" aria-label="Comprar">
+
+      <article class="card">
+        <div class="etiqueta">Pré-Venda</div>
+        <div class="desconto">30% OFF</div>
+
+        <div class="capa">
+          <img src="https://leitura.com.br/image/cache/products/9786560252431-200x200.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Breve memória de Simeão boa morte</h3>
+      </article>
+
+      </a>
+
+      <a href="Amor & gelato.html" class="card-link" aria-label="Comprar">
+
+      <article class="card">
+        <div class="etiqueta">Pré-Venda</div>
+        <div class="desconto">70% OFF</div>
+
+        <div class="capa">
+          <img src="https://leitura.com.br/image/cache/products/9788551002346-200x200.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Amor & gelato</h3>
+
+      </article>
+
+      </a> 
+
+      <a href="APOSTANDO NO AMOR.html" class="card-link" aria-label="Comprar">
+
+        <article class="card">
+        <div class="etiqueta">Pré-Venda</div>
+        <div class="desconto">50% OFF</div>
+
+        <div class="capa">
+          <img src="https://leitura.com.br/image/cache/products/9788551009734-200x200.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Apostando no amor</h3>
+      </article>
+
+      </a> 
+
+    <a href="Coraline.html" class="card-link" aria-label="Comprar">
+
+      <article class="card">
+        <div class="etiqueta">Pré-Venda</div>
+        <div class="desconto">85% OFF</div>
+
+        <div class="capa">
+          <img src="https://leitura.com.br/image/cache/products/9788551006757-200x200.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Coraline</h3>
+      </article>
+
+      </a>
+
+    <a href="O caderno de maldades do Scorpio.html" class="card-link" aria-label="Comprar">
+
+      <article class="card">
+        <div class="etiqueta">Pré-Venda</div>
+        <div class="desconto">30% OFF</div>
+
+        <div class="capa">
+          <img src="https://leitura.com.br/image/cache/products/9788542226515-200x200.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">O caderno de maldades do Scorpio</h3>
+      </article>
+
+    </a>
+
+    <a href="A Arte de Fazer Milhão.html" class="card-link" aria-label="Comprar">
+
+      <article class="card">
+        <div class="etiqueta">Pré-Venda</div>
+        <div class="desconto">10% OFF</div>
+
+        <div class="capa">
+          <img src="https://leitura.com.br/image/cache/products/9786560951426-228x228.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">A Arte de Fazer Milhão</h3>
+      </article>
+    </a>
+
+    <a href="Como o Grinch roubou o Natal.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="etiqueta">Pré-Venda</div>
+        <div class="desconto">10% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/914RxSdCxaL._SY425_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Como o Grinch roubou o Natal</h3>
+      </article>
+
+      </a>
+  
+    <a href="Gilmore Girl.html" class="card-link" aria-label="Comprar">
+
+      <article class="card">
+        <div class="etiqueta">Pré-Venda</div>
+        <div class="desconto">10% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/412lyAhkEDL._SY445_SX342_ML2_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Gilmore Girl - Aceito, Não Aceito?</h3>
+      </article>
+
+    </a>
+
+    </div>
+
+    <!-- Botão Direita -->
+    <button class="botao-nav direita" id="btnDireita" aria-label="Próximo">
+      <svg width="22" height="36" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" stroke="white" stroke-width="2"/></svg>
+    </button>
+
+  </div>
+</section>
+
+<section class="secao" aria-label="Carrossel Quadrinhos & Mangás">
+  <div class="topo">
+    <h1 class="titulo">Quadrinhos & Mangás</h1>
+    <a href="#" class="ver-mais">Veja +</a>
+  </div>
+
+  <div class="carrossel">
+
+    <!-- Botão Esquerda -->
+    <button class="botao-nav esquerda" id="btnEsquerda2" aria-label="Anterior">
+      <svg width="22" height="36" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6" stroke="white" stroke-width="2"/></svg>
+    </button>
+
+    <!-- Faixa de Cards -->
+    <div class="faixa2" id="faixa2">
+
+    <a href="Batmam.html" class="card-link" aria-label="Comprar">
+
+      <article class="card">
+        <div class="etiqueta">Lançamento</div>
+        <div class="desconto">5% OFF</div>
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/8154VL++ZHL.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Absolute batman 01</h3>
+      </article>
+
+      </a>
+
+    <a href="Jojo bizarre adventure.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+
+        <div class="desconto">25% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/619m1E2xBsL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Editorial Ivrea Banda Desenhada Jojo ́s Bizarre Adventure Parte 7: Steel Ball Run 02 Colorido</h3>
+      </article>
+
+      </a>
+
+      <a href="Sonic.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        
+        <div class="desconto">12% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/91oKnNhZ5LL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Sonic The Hedgehog – Volume 1: Depois da guerra ( ACOMPANHA PÔSTER E MARCADOR)</h3>
+      </article>
+
+      </a>
+
+      <a href="Baki Rahen.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="etiqueta">Lançamento</div>
+        <div class="desconto">5% OFF</div>
+
+        <div class="capa">
+          <img src="https://www.fonomag.com.br/image/cache/data/eftr/Img_ftr_rp_812101-580x580.JPG?version=20250602144139">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">BAKI RAHEN vol. 1 (Baki Parte 6) - Edição Japonesa 刃牙らへん</h3>
+      </article>
+
+      </a>
+
+
+      <a href="One Piece.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+  
+        <div class="desconto">44% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/91BY--NCtWL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">One Piece Vol. 6</h3>
+      </article>
+
+      </a>
+
+
+      <a href="Spiderman.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="desconto">32% OFF</div>
+
+        <div class="capa">
+          <img src="https://i.ebayimg.com/images/g/w0wAAOSwWQlnOARk/s-l1600.webp">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">WEB OF SPIDER-MAN #32 FACSIMILE ED</h3>
+      </article>
+
+      </a>
+
+
+    <a href="Superman.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="desconto">90% OFF</div>
+
+        <div class="capa">
+          <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_ejp2ebr23d2359aj2ujdgckp28/-S897-FWEBP">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Superman 11/88</h3>
+      </article>
+
+    </a>
+
+    <a href="Vinland Saga.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="etiqueta">Lançamento</div>
+        <div class="desconto">44% OFF</div>
+
+        <div class="capa">
+          <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_jc2noottjp00t6f410fp29is04/-S897-FWEBP">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Vinland Saga Vol. 24</h3>
+      </article>
+    </a>
+
+    <a href="Kusuriya No Hitorigoto - Diários De Uma Apotecária.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="desconto">44% OFF</div>
+
+        <div class="capa">
+          <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_8a2viqf59p1m1fv0hc38efdh4g/-S897-FWEBP">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Kusuriya no Hitorigoto - Diários de uma Apotecária 02</h3>
+      </article>
+
+    </a>
+
+    <a href="Invincible.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="desconto">44% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/71YS6cGcJbL._SY466_.jpg">
+        </div>
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Invincible, Volume 12: Still Standing</h3>
+      </article>
+      </a>
+
+    </div>
+
+    <!-- Botão Direita -->
+    <button class="botao-nav direita" id="btnDireita2" aria-label="Próximo">
+      <svg width="22" height="36" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" stroke="white" stroke-width="2"/></svg>
+    </button>
+
+  </div>
+</section>
+
+<section class="secao" aria-label="Carrossel de Terror">
+  <div class="topo">
+    <h1 class="titulo">Terror</h1>
+  </div>
+
+  <div class="carrossel">
+
+    <!-- Botão Esquerda -->
+    <button class="botao-nav esquerda" id="btnEsquerda3" aria-label="Anterior">
+      <svg width="22" height="36" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6" stroke="white" stroke-width="2"/></svg>
+    </button>
+
+    <!-- Faixa de Cards -->
+    <div class="faixa3" id="faixa3">
+      
+  <a href="Dracula.html" class="card-link" aria-label="Comprar">
+    <article class="card">
+
+      <div class="desconto">35% OFF</div>
+
+      <div class="capa">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSjMm_UR4Js_dKq-yAl63KXgJlhTveJDhXyjeYIU0isT78DUaXjYjT3ZVD33t0Vu7a3P-AYiadAnKGkQFQ5i_6U57TPwJ1q_3AqbcqZJYaI">
+      </div>
+
+      <button class="btn-card">Comprar</button>
+      <h3 class="titulo-card">Drácula</h3>
+
+    </article>
+  </a>
+      <a href="Olhos prateados.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="desconto">18% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/91Rh0D2brbL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+
+        <h3 class="titulo-card">Olhos prateados: Five Nights At Freddy's 1</h3>
+      </article>
+    </a>
+
+    <a href="A incendiária.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="etiqueta">Lançamento</div>
+        <div class="desconto">56% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/A1tuNVI8rxL.jpg">
+        </div>
+
+         <button class="btn-card">Comprar</button>
+
+        <h3 class="titulo-card">A Incendiária | Stephen King</h3>
+      </article>
+    </a>
+
+    <a href="O Exorcista.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="desconto">10% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/91fQ51I4TRL._SY466_.jpg">
+        </div>
+
+         <button class="btn-card">Comprar</button>
+
+        <h3 class="titulo-card">O Exorcista</h3>
+      </article>
+    </a>
+
+      <a href="It A coisa.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="desconto"></div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/91g9Dvtf+jL._SY425_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+
+        <h3 class="titulo-card">It: A coisa: O livro que deu origem à série da HBO Max “Bem-vindos à Derry”</h3>
+      </article>
+
+      </a>
+       <a href="A Sombra do Torturador.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="etiqueta">Lançamento</div>
+        <div class="desconto">5% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/81hBrNJdSZL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+
+        <h3 class="titulo-card">A Sombra do Torturador</h3>
+      </article>
+
+      </a>
+
+      <a href="Mergulho na escuridão.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="etiqueta">Lançamento</div>
+        <div class="desconto">10% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/61ZJ8jpI8vL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+
+        <h3 class="titulo-card">Mergulho na escuridão: (Five Nights at Freddy’s: Pavores de Fazbear): 1</h3>
+      </article>
+
+      </a>
+
+      <a href="Hell House.html" class="card-link" aria-label="Comprar">
+
+      <article class="card">
+        <div class="desconto">70% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/81v+-5Nq-QL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+
+        <h3 class="titulo-card">Hell House: A Casa do Inferno</h3>
+      </article>
+
+      </a>
+
+
+      <a href="Noite na Taverna.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="desconto">50% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/61XET0NIkML._SY522_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+
+        <h3 class="titulo-card">Noite na Taverna</h3>
+      </article>
+
+      </a>
+
+      <a href="O PACIENTE.html" class="card-link" aria-label="Comprar">
+
+      <article class="card">
+        <div class="etiqueta">Lançamento</div>
+        <div class="desconto">27% OFF</div>
+
+        <div class="capa">
+          <img src="https://img.wook.pt/images/o-paciente-jasper-dewitt/MXwyNDcxMzIxMXwyMDg2NzI4OHwxNjI3Mjk1MjMxMDAwfHdlYnA=/550x">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+
+        <h3 class="titulo-card">O Paciente</h3>
+      </article>
+
+      </a>
+
+    </div>
+
+    <!-- Botão Direita -->
+    <button class="botao-nav direita" id="btnDireita3" aria-label="Próximo">
+      <svg width="22" height="36" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" stroke="white" stroke-width="2"/></svg>
+    </button>
+
+  </div>
+</section>
+
+<section class="secao" aria-label="Carrossel de Ficção">
+  <div class="topo">
+    <h1 class="titulo">Ficção</h1>
+      <a href="#" class=""></a>
+  </div>
+
+  <div class="carrossel">
+
+    <!-- Botão Esquerda -->
+    <button class="botao-nav esquerda" id="btnEsquerda4" aria-label="Anterior">
+      <svg width="22" height="36" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6" stroke="white" stroke-width="2"/></svg>
+    </button>
+
+    <!-- Faixa de Cards -->
+    <div class="faixa" id="faixa4">
+
+    <a href="O diário perdido de Gravity falls.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="etiqueta"></div>
+        <div class="desconto">10% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/91OvTwFvWKL._SY425_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">O diário perdido de Gravity falls</h3>
+      </article>
+
+      </a>
+
+    <a href="Fantasmópolis.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="etiqueta">Pré-Venda</div>
+        <div class="desconto">10% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/61kYv9EUNxL._SX445_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Fantasmópolis</h3>
+      </article>
+    </a>
+
+    <a href="Interestelar.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+
+        <div class="desconto">10% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/71qzTzxzoCL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Interestelar</h3>
+      </article>
+    </a>  
+
+    <a href="O Pescador.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="desconto">10% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/91rZD7t+GHL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">O Pescador</h3>
+      </article>
+    </a>
+
+    <a href="Duna Casa Atreides 1.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="etiqueta">Lançamento</div>
+        <div class="desconto">20% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/61TSPyVvERL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Duna: Casa Atreides: 1</h3>
+      </article>
+    </a>
+
+    <a href="Boa Noite Punpun.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="desconto">20% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/51EQ5jMPsHL._SY425_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Boa Noite Punpun - Vol. 1</h3>
+      </article>
+    </a>
+
+    <a href="Chegue mais perto.html" class="card-link" aria-label="Comprar">  
+      <article class="card">
+        <div class="desconto">4% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/81NH42HkHRL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">Chegue mais perto: (Five Nights at Freddy’s: Pavores de Fazbear): 4</h3>
+      </article>
+    </a>
+    <a href="A natureza da mordida.html" class="card-link" aria-label="Comprar"> 
+      <article class="card">
+        <div class="etiqueta">Lançamento</div>
+        <div class="desconto">20% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/91B5NWWKuzL._SY466_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">A natureza da mordida</h3>
+      </article>
+    </a>
+
+    <a href="O nome do vento.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="etiqueta">Lançamento</div>
+        <div class="desconto">60% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/81CGmkRG9GL._SY425_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">O nome do vento (A Crônica do Matador do Rei – Livro 1)</h3>
+      </article>
+    </a>  
+
+    <a href="The Legend of Zelda.html" class="card-link" aria-label="Comprar">
+      <article class="card">
+        <div class="etiqueta">Lançamento</div>
+        <div class="desconto">29% OFF</div>
+
+        <div class="capa">
+          <img src="https://m.media-amazon.com/images/I/81ZaSDTF0XL._SY425_.jpg">
+        </div>
+
+        <button class="btn-card">Comprar</button>
+        <h3 class="titulo-card">The Legend of Zelda: Hyrule Historia</h3>
+      </article>
+    </a>
+
+    </div>
+
+    <!-- Botão Direita -->
+    <button class="botao-nav direita" id="btnDireita4" aria-label="Próximo">
+      <svg width="22" height="36" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" stroke="white" stroke-width="2"/></svg>
+    </button>
+
+  </div>
+</section>
+
+
+
+<footer class="footer">
+
+<div class="containe-footer">
+  <div class="footerimglogo">
+    <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/4949485-stacked-book-in-black-background-vector-template-logo-design-editable-gratis-vetor.jpg" class="footerimglogo">
+  </div>
+
+  <div class="Termos">
+    <h3>Privacidade e Termos</h3>
+    <p>Política de Pagamento</p> 
+    <p>Política de Privacidade</p>
+    <p>Política de Brindes Promocionais</p>
+    <p>Trocas e Devoluções</p>
+    <p>Regulamento de Cashback</p>
+    <p>Encontre o seu Pedido</p>
+    <p>Fale com a Caveira</p>
+   </div>
+
+   <div class="Mapa do Site">
+    <H3>Mapa do Site</H3>
+    <p>DarkBlog</p>
+    <p>Livros</p>
+    <p>Editora</p>
+   </div>
+
+   <div class="Formas-de-pagamento">
+    <h3>Formas de pagamento</h3>
+    <div>
+    <img src="https://static.vecteezy.com/system/resources/previews/020/336/391/non_2x/visa-logo-visa-icon-free-free-vector.jpg" alt="">
+    <img src="https://i.pinimg.com/736x/68/6e/26/686e267268a8f3070ed6b458ebba66cc.jpg" alt="">
+    <img src="data:image/png;base64,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" alt="">
+    </div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx5na7N5STKVoGVgsNC3iCeWBPpzQiAwFedw&s" alt="">
+    <img src="https://thumbs.dreamstime.com/b/%C3%ADcone-de-c%C3%B3digo-barras-do-invent%C3%A1rio-neg%C3%B3cios-isolado-em-plano-fundo-preto-logotipo-vetor-simples-410207977.jpg" alt="">
+
+   </div>
+
+   <div class="siga">
+    <div class="siga3x3">
+    <h3>Siga-nos</h3>
+    <img src="https://i.pinimg.com/736x/9d/67/70/9d67702a7baa28fa6adb57e699d0f811.jpg" alt="">
+    <img src="https://i.pinimg.com/736x/23/33/e7/2333e78d2da249bde09ec2162cf4f25c.jpg" alt="">
+    <img src="https://i.pinimg.com/1200x/ec/b9/2b/ecb92b3526ffbac1355ce430ca170a8d.jpg" alt="">
+    </div>
+    <img src="https://img.freepik.com/vetores-gratis/novo-design-de-icone-x-do-logotipo-do-twitter-em-2023_1017-45418.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+    <img src="https://img.freepik.com/vetores-premium/logotipo-de-midia-social-vector-tiktok_1093524-451.jpg?semt=ais_se_enriched&w=740&q=80" alt="">
+    <img src="https://static.vecteezy.com/system/resources/previews/065/386/621/non_2x/pinterest-black-logo-icon-pin-app-transparent-background-premium-social-media-design-for-digital-download-free-png.png" alt="">
+  </div>
+</div>
+
+</footer>
+
+
+<script src="lino.js"></script>
+
+</body>
